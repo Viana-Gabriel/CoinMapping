@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/icons/icon.svg" type="image/x-icon">
+  <title>CoinMapping</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <header class="cabecalho">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="./Assets/images/Logo.svg" alt="Logotipo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+          aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-list"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11z" />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link mx-2 text-white" href="#">Quem somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 text-white" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-light mx-2" href="#">Comece a gerenciar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="banner" class="py-5">
+      <div class="container container-banner">
+        <div class="banner-conteudo my-xl-5">
+          <p class="my-lg-5 fs-5">Alcance seus <strong> objetivos financeiros</strong> com tranquilidade: simplifique, planeje e conquiste
+            com nossa plataforma de gestão financeira pessoal.</p>
+          <a href="" class="botao">Confira</a>
+        </div>
+        <span class="arrow">
+          <img src="./Assets/icons/icon-arrow.svg" alt="">
+        </span>
+        <div class="banner-img ">
+          <img src="./Assets/images/Banner/imagem_banner.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section id="Recursos" class="py-4">
+      <div class="container">
+        <h2 class="text-left titulo my-4">Recusos oferecidos</h2>
+        <div id="RecursosCarrossel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#RecursosCarrossel" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#RecursosCarrossel" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#RecursosCarrossel" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#RecursosCarrossel" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active ">
+              <div class="container_carrossel">
+                <div>
+                  <img src="./Assets/images/recursos/controle_despesas.svg" class="d-block w-100" alt="Controle de despesas">
+                </div>
+                <div class="container_carrossel-conteudo">
+                  <h2 class="subtitulo">Controle de Despesas</h2>
+                  <p>O controle de despesas é essencial para manter a saúde financeira e evitar endividamentos. Ao
+                    monitorar gastos e receitas, é possível identificar excessos e oportunidades de economia. Criar um
+                    orçamento mensal ajuda a planejar melhor os gastos, priorizando o que é realmente importante.</p>
+                  <a href="" class="botao">Veja Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="container_carrossel">
+                <div>
+                  <img src="./Assets/images/recursos/investimentos.svg" class="d-block w-100" alt="Investimentos">
+                </div>
+                <div class="container_carrossel-conteudo">
+                  <h2 class="subtitulo">Investimentos</h2>
+                  <p>Investir é uma das maneiras mais eficazes de construir um futuro financeiro sólido. Na nossa
+                    plataforma de gerenciamento financeiro pessoal, você pode monitorar seus investimentos com
+                    facilidade e clareza, permitindo decisões mais informadas. Com gráficos intuitivos e análises
+                    detalhadas, fica mais simples acompanhar o desempenho de suas aplicações.</p>
+                  <a href="" class="botao">Veja Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="container_carrossel">
+                <div>
+                  <img src="./Assets/images/recursos/especulacoes.svg" class="d-block w-100" alt="Especulações">
+                </div>
+                <div class="container_carrossel-conteudo">
+                  <h2 class="subtitulo">Especulações</h2>
+                  <p>A especulação financeira pode oferecer grandes oportunidades, mas também envolve riscos
+                    consideráveis. Na nossa plataforma de gerenciamento financeiro pessoal, você pode acompanhar suas
+                    movimentações especulativas em tempo real, analisando tendências e flutuações do mercado com
+                    precisão.</p>
+                  <a href="" class="botao">Veja Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="container_carrossel">
+                <div>
+                  <img src="./Assets/images/recursos/categorias.svg" class="d-block w-100" alt="Categorias">
+                </div>
+                <div class="container_carrossel-conteudo">
+                  <h2 class="subtitulo">Categorização</h2>
+                  <p>A categorização de despesas e receitas é essencial para ter controle total sobre suas finanças. Em
+                    nossa plataforma de gerenciamento financeiro pessoal, você pode classificar facilmente seus gastos e
+                    ganhos em diferentes categorias, como moradia, alimentação, lazer e salários. Isso permite uma visão
+                    clara de onde seu dinheiro está indo e como ele está sendo utilizado.</p>
+                  <a href="" class="botao">Veja Mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="comentarios">
+      <div class="container">
+        <h2 class="text-left titulo mb-4">O que nossos usuários dizem</h2>
+      </div>
+      <div>
+        <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="d-flex container_carrossel-comentarios">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <img src="./Assets/images/comentarios/Wade.png" alt="Avatar" class="rounded-circle me-3">
+                      <div>
+                        <h5 class="card-title mb-0">Wade Warren</h5>
+                        <small class="text-muted">Comentário de 02/12/2024</small>
+                      </div>
+                    </div>
+                    <p class="card-text">
+                      "Estou utilizando o sistema há alguns meses e tem sido um divisor de águas para minhas finanças. A
+                      organização dos gastos e a visualização dos relatórios me ajudaram a economizar e investir
+                      melhor."
+                    </p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <img src="./Assets/images/comentarios/Jane.png" alt="Avatar" class="rounded-circle me-3">
+                      <div>
+                        <h5 class="card-title mb-0">Jane Cooper</h5>
+                        <small class="text-muted">Comentário de 28/11/2024</small>
+                      </div>
+                    </div>
+                    <p class="card-text">
+                      "O sistema me ajudou a entender melhor para onde está indo o meu dinheiro. O recurso de metas
+                      financeiras é fantástico e me motivou a economizar mais."
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item ">
+              <div class="d-flex container_carrossel-comentarios">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <img src="./Assets/images/comentarios/John.png" alt="Avatar" class="rounded-circle me-3">
+                      <div>
+                        <h5 class="card-title mb-0">John Smith</h5>
+                        <small class="text-muted">Comentário de 25/11/2024</small>
+                      </div>
+                    </div>
+                    <p class="card-text">
+                      "Antes de usar o sistema, eu não conseguia controlar meus gastos com eficiência. Agora, consigo
+                      planejar minhas despesas mensais e até reservar uma quantia para emergências."
+                    </p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <img src="./Assets/images/comentarios/Sarah.png" alt="Avatar" class="rounded-circle me-3">
+                      <div>
+                        <h5 class="card-title mb-0">Sarah Johnson</h5>
+                        <small class="text-muted">Comentário de 20/11/2024</small>
+                      </div>
+                    </div>
+                    <p class="card-text">
+                      "Eu sempre achei complicado organizar minhas finanças, mas esse sistema tornou tudo mais simples.
+                      As categorias de gastos e o acompanhamento em tempo real me deram mais controle."
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Controles -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+      </div>
+
+    </section>
+    <section id="duvidas" class="py-5">
+      <h2 class="text-center titulo my-4">Duvidas Frequentes</h2>
+      <div class="accordion container" id="AccordionDuvidas">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Como posso começar a organizar minhas finanças pessoais de forma eficiente?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#AccordionDuvidas">
+            <div class="accordion-body">
+              <p>
+                Organizar suas finanças pessoais começa com o
+                planejamento. Primeiramente, liste todas as suas receitas e despesas para entender para onde seu
+                dinheiro
+                está indo. Defina um orçamento baseado em suas necessidades e metas financeiras, priorizando poupança e
+                investimentos. Manter um controle regular de seus gastos e ajustar o orçamento quando necessário é
+                essencial
+                para garantir eficiência nas finanças pessoais.
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Qual é a importância de ter uma reserva de emergência e como posso começar a construir uma? </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#AccordionDuvidas">
+            <div class="accordion-body">
+              <p>
+                A reserva de emergência é crucial para lidar com
+                imprevistos financeiros, como desemprego ou despesas médicas. Para começar, defina uma meta de reserva,
+                que
+                geralmente deve cobrir de três a seis meses de suas despesas mensais. Poupe uma quantia fixa
+                regularmente,
+                de preferência em uma conta de fácil acesso e com baixo risco, para garantir liquidez e segurança.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Como posso reduzir minhas dívidas de forma eficaz? </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#AccordionDuvidas">
+            <div class="accordion-body">
+              <p>
+                Reduzir dívidas de forma eficaz requer disciplina e
+                planejamento. Priorize o pagamento das dívidas com os maiores juros e tente negociar melhores condições
+                com
+                seus credores. Evite contrair novas dívidas enquanto trabalha para quitar as atuais. Criar um orçamento
+                e
+                reservar uma parte da sua renda exclusivamente para pagar dívidas é uma estratégia essencial para sair
+                do
+                endividamento.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+              Quais são os melhores investimentos para iniciantes que querem começar a poupar para o futuro?</button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#AccordionDuvidas">
+            <div class="accordion-body">
+              <p>
+                Para iniciantes, é importante começar com
+                investimentos de
+                baixo risco e diversificados, como a poupança ou títulos de renda fixa. À medida que ganha confiança,
+                pode
+                explorar opções mais rentáveis, como fundos de investimento ou ações. A diversificação é a chave para
+                minimizar riscos, e investir a longo prazo traz mais segurança e maiores retornos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p class="footer-text mb-0">
+        &copy; Desenvolvido por Gabriel Viana - 2024
+      </p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
